@@ -1,11 +1,12 @@
 # SpringBootApplication
 End to end Spring boot application using Derby &amp; JPA to create RESTful services
 
-#How to Use
+# How to Use
 1. Import the application directly to Eclipse. 
 2. Run the application
 3. Open localhost:2000/university
 
+# Possible Operations
 GET /university gives the list of all universities sorted by Name
 
 [
