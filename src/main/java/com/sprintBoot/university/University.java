@@ -15,6 +15,11 @@ public class University implements Comparable<University>{
 	private String address;
 	
 	public University() {
+		
+	}
+	
+	public University(Integer id) {
+		this.id = id;
 	}
 
 	public University(String name, String address) {
@@ -26,7 +31,9 @@ public class University implements Comparable<University>{
 	public Integer getId() {
 		return this.id;
 	}
-
+	public void setId(Integer id) {
+		this.id = id;
+	}
 	public String getName() {
 		return name;
 	}

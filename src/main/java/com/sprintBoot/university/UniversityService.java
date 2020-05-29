@@ -30,6 +30,7 @@ public class UniversityService {
 	}
 	
 	public void updateUniversity(University updateUniversity, Integer id) {
+		updateUniversity.setId(id);
 		universityRepository.save(updateUniversity);
 	}
 
